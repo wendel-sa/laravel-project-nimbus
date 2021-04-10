@@ -23,8 +23,7 @@ body {
 }
 
 .image {
-    width: 360px;
-    height: 280px
+   width: 60%;
 }
 
 .border-line {
@@ -61,19 +60,19 @@ body {
     border-radius: 50%;
     width: 35px;
     height: 35px;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .line {
     height: 1px;
     width: 45%;
     background-color: #E0E0E0;
-    margin-top: 10px
+    margin-top: 10px;
 }
 
 .or {
     width: 10%;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .text-sm {
@@ -131,16 +130,17 @@ a {
     cursor: pointer
 }
 
-.btn-blue {
-    background-color: #1A237E;
-    width: 150px;
+.btn.btn-blue {
+    background-color: #3b40dc;
+    width: 300px;
     color: #fff;
-    border-radius: 2px
+    border-radius: 2px;
 }
 
-.btn-blue:hover {
+.btn.btn-blue:hover {
     background-color: #000;
-    cursor: pointer
+    color: #fff;
+    cursor: pointer;
 }
 
 .bg-blue {
